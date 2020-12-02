@@ -1,0 +1,157 @@
+body{
+    font-family:  Helvetica, sans-serif;
+  background-color: rgb(235, 235, 235);
+}
+
+.center{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+  background-color: white;
+    height:600px;
+  width:400px;
+  display:flex;
+  flex-direction:column;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:  15px 15px 27px #adadad;
+  align-items: stretch;
+	justify-content: space-between;
+	  
+}
+
+.image{
+    height:250px;
+  width:400px;
+  top:0px;
+  background-image:url('../img/house.jpg');
+  background-size:cover;
+  background-repeat:no-repeat; 
+  order: 0;
+}
+
+p{
+  margin: 5px;
+}
+
+.info{
+  padding: 10px;
+  order: 1; 
+  width: 400px;
+  flex-grow: 1;
+}
+
+.info_name{
+text-transform: uppercase;
+font-weight: bold;
+color: gray;
+font-size: medium;
+}
+
+.info_price{
+  font-size: xx-large;
+}
+
+.info_address{
+  color: gray;
+  font-size: medium;
+}
+
+.beds{
+  flex-grow: 1;
+  order: 2;
+  width: 400px;
+  padding: 10px;
+  border-top: 1px solid  rgb(189, 189, 189);
+  border-bottom: 1px solid rgb(189, 189, 189);
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+.bedroom {
+  display: flex;
+  flex-grow: 1;
+}
+
+.bathroom{
+  display: flex;
+  flex-grow: 1;
+}
+
+.bed_logo{
+  width: 30px;
+  margin-right: 5px;
+  
+}
+
+.bath_logo{
+  width: 30px;
+  margin-right: 5px;
+}
+
+span{
+  font-weight: bold;
+}
+
+.contact{
+  flex-grow: 1;
+  width: 400px;
+  order: 3;
+  padding: 10px;
+  background-color: rgb(241, 241, 241);  
+  align-self: center;
+}
+
+.contact_info{
+  display: flex;
+}
+
+.my_logo{
+  height: 60px;
+  width: 60px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.contact_title{
+text-transform: uppercase;
+font-weight: bold;
+color: gray;
+}
+
+.contact_name{
+  font-weight: bold;
+}
+
+.contact_phone{
+  color: gray;
+}
+
+.button{
+  width: 400px;
+  order: 4;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.button_learnMore{
+  margin: 10px;
+  height: 30px;
+  width: 90px; 
+  align-content: center;
+  align-self: center;
+}
+
+  
+}
